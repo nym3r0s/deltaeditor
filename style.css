@@ -1,0 +1,34 @@
+
+body
+{
+	background-color:#A8C8CC;
+}
+#edit
+{	position: absolute;
+	left: 2%;
+	top: 100px;
+	width: 45%;
+	height: 80%;
+	border: solid;
+	border-color: black;
+	font-size: 15px;
+	font-family: arial;
+}
+#preview
+{	position: absolute;
+	left: 52%;
+	top: 100px;
+	width: 45%;
+	height: 80%;
+	border: solid;
+	border-color: black;
+	font-size: 15px;
+	background-color: white;
+	font-family: arial;
+}
+#hdr
+{
+	font-family: arial;
+	font-size: 20px;
+	color:#411775 ;
+}

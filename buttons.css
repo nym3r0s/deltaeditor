@@ -1,0 +1,97 @@
+#bold
+{
+	position: absolute;
+	border-radius: 10px;
+	left:25px;
+	top:60px;
+	background-color: 07FCFF;
+}
+#bold:hover
+{
+	background-color: 078DFF;
+}
+#ital
+{
+	position: absolute;
+	border-radius: 10px;
+	left:125px;
+	top:60px;
+	background-color: 07FCFF;
+}
+#ital:hover
+{
+	background-color: 078DFF;
+}
+#uline
+{
+	position: absolute;
+	border-radius: 10px;
+	left:225px;
+	top:60px;
+	background-color: 07FCFF;
+}
+#uline:hover
+{
+	background-color: 078DFF;
+}
+#para
+{
+	position: absolute;
+	border-radius: 10px;
+	left:325px;
+	top:60px;
+	background-color: 07FCFF;
+}
+#para:hover
+{
+	background-color: 078DFF;
+}
+#dold
+{
+	position: absolute;
+	border-radius: 10px;
+	left:425px;
+	top:60px;
+	background-color: 07FCFF;
+}
+#dold:hover
+{
+	background-color: 078DFF;
+}
+#dital
+{
+	position: absolute;
+	border-radius: 10px;
+	left:525px;
+	top:60px;
+	background-color: 07FCFF;
+}
+#dital:hover
+{
+	background-color: 078DFF;
+}
+#color
+{
+	position: absolute;
+	border-radius: 10px;
+	left:625px;
+	top:60px;
+	background-color: white;
+}
+#color:hover
+{
+	background-color: 078DFF;
+}
+
+#fsize
+{
+	position: absolute;
+	border-radius: 10px;
+	left:725px;
+	top:60px;
+	background-color: white;
+}
+#fsize:hover
+{
+	background-color: 078DFF;
+}

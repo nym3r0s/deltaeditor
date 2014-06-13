@@ -1,0 +1,59 @@
+<html>
+	<head>
+	<link rel="stylesheet" type="text/css" href="style.css">
+	<link rel="stylesheet" type="text/css" href="buttons.css">
+	<script type="text/javascript" src="editor.js"></script>
+	<title>Gokul Srinivas</title>
+	</head>
+	<body onload="syncer();" >
+	<center><h1 id="hdr">Text Editor by Gokul Srinivas</h1></center>	
+	<form>
+		<input type="button" id="bold"  value="Bold"      onclick="addtag('[b]','[/b]');">
+		<input type="button" id="ital"  value="Italics"   onclick="addtag('[i]','[/i]');">
+		<input type="button" id="uline" value="Underline" onclick="addtag('[u]','[/u]');">
+		<input type="button" id="para"  value="Paragraph" onclick="addtag('[p]','[/p]');">
+		<input type="button" id="dold"  value="Dold"      onclick="fdold();">
+		<input type="button" id="dital" value="Ditalics"  onclick="fditalic();">
+	</form>
+
+	<select id="color" onchange="addtag('['+ this.options[this.selectedIndex].value +']' ,'[/'+ this.options[this.selectedIndex].value +']' );">
+		
+	<option selected="selected"> Black </option>
+
+		<option value="red" 	style="color:red" >	  Red 	 </option>
+		<option value="green"	style="color:green">  Green  </option>
+		<option value="blue" 	style="color:blue">	  Blue 	 </option>
+		<option value="gold"  	style="color:gold">   Gold   </option>
+		<option value="yellow" 	style="color:yellow"> Yellow </option>
+		<option value="aqua"  	style="color:aqua">	  Aqua   </option>
+		<option value="violet"	style="color:violet"> Violet </option>
+		<option value="orange"	style="color:orange"> Orange </option>
+		<option value="indigo"  style="color:indigo"> Indigo </option>
+	
+	</select> 
+
+	<select id="fsize" onchange="addtag('[size:'+ this.options[this.selectedIndex].value +']' ,'[/size]');">
+		
+	<option selected="selected"> 15 </option>
+
+		<option value="11px"> 11 </option>
+		<option value="12px"> 12 </option>
+		<option value="13px"> 13 </option>
+		<option value="14px"> 14 </option>
+		<option value="15px"> 15 </option>
+		<option value="16px"> 16 </option>
+		<option value="17px"> 17 </option>
+		<option value="18px"> 18 </option>
+		<option value="19px"> 19 </option>
+		<option value="20px"> 20 </option>
+		<option value="21px"> 21 </option>
+		
+	</select> 
+
+
+	<textarea id="edit" placeholder="Type here."></textarea>
+	<div id="preview"></div>
+
+
+	</body>
+</html>
