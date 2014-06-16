@@ -101,7 +101,7 @@ function fdold()
 
 	for(var i=0;i<modstr.length;i++)
 	{
-		if(i%2==0)
+		if(i%2===0)
 		{
 			doldstr += modstr.charAt(i).toUpperCase();
 		}
@@ -129,7 +129,7 @@ function fditalic()
 
 	for(var i=0;i<modstr.length;i++)
 	{
-		if(i%2==0)
+		if(i%2===0)
 		{
 			doldstr += modstr.charAt(i).toUpperCase();
 		}
