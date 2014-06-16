@@ -4,11 +4,11 @@
 	border-radius: 10px;
 	left:25px;
 	top:60px;
-	background-color: 07FCFF;
+	background-color: #07FCFF;
 }
 #bold:hover
 {
-	background-color: 078DFF;
+	background-color: #078DFF;
 }
 #ital
 {
@@ -16,11 +16,11 @@
 	border-radius: 10px;
 	left:125px;
 	top:60px;
-	background-color: 07FCFF;
+	background-color: #07FCFF;
 }
 #ital:hover
 {
-	background-color: 078DFF;
+	background-color: #078DFF;
 }
 #uline
 {
@@ -28,11 +28,11 @@
 	border-radius: 10px;
 	left:225px;
 	top:60px;
-	background-color: 07FCFF;
+	background-color: #07FCFF;
 }
 #uline:hover
 {
-	background-color: 078DFF;
+	background-color: #078DFF;
 }
 #para
 {
@@ -40,11 +40,11 @@
 	border-radius: 10px;
 	left:325px;
 	top:60px;
-	background-color: 07FCFF;
+	background-color: #07FCFF;
 }
 #para:hover
 {
-	background-color: 078DFF;
+	background-color: #078DFF;
 }
 #dold
 {
@@ -52,11 +52,11 @@
 	border-radius: 10px;
 	left:425px;
 	top:60px;
-	background-color: 07FCFF;
+	background-color: #07FCFF;
 }
 #dold:hover
 {
-	background-color: 078DFF;
+	background-color: #078DFF;
 }
 #dital
 {
@@ -64,11 +64,11 @@
 	border-radius: 10px;
 	left:525px;
 	top:60px;
-	background-color: 07FCFF;
+	background-color: #07FCFF;
 }
 #dital:hover
 {
-	background-color: 078DFF;
+	background-color: #078DFF;
 }
 #color
 {
@@ -80,7 +80,7 @@
 }
 #color:hover
 {
-	background-color: 078DFF;
+	background-color: #078DFF;
 }
 
 #fsize
@@ -93,5 +93,5 @@
 }
 #fsize:hover
 {
-	background-color: 078DFF;
+	background-color: #078DFF;
 }
